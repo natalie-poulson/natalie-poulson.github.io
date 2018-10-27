@@ -1,0 +1,234 @@
+@import './sass/_reset';
+@import './sass/_index';
+@import './sass/_about';
+@import './sass/_portfolio';
+@import './sass/_contact';
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgba(0,0,0,.8)
+}
+
+nav {
+    ul{
+        display:flex;
+        margin:1em;
+        position:absolute;
+        right:0;
+        a {
+            text-decoration:none;
+            color:white !important;
+            text-transform: lowercase;
+            padding:0 2em;
+            opacity:.6;
+            &:hover {
+                opacity:1;
+                text-decoration:none;
+            }
+        }
+    }
+}
+
+footer {
+    ul{
+        display:flex;
+        margin:1em;
+        position:absolute;
+        bottom:0;
+        left:0;
+        i {
+            color:white;
+            padding:0 1em;
+            opacity:.6;
+            &:hover {
+                opacity:1;
+            }
+        }
+    }
+}
+
+/// MEDIA QUERIES
+@media screen and (max-width:710px) {
+    header {
+        .name {
+        color:orange;
+        opacity:1;
+        }
+    }
+    #about {
+        .self-summary{
+            p{
+                font-size:1.5em;
+            }
+            img{
+                width:45vw;
+            }
+        }
+        h1 {
+            font-size:2.8em;
+        }
+    }
+    #portfolio {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            margin:0 0 1em 0;
+        }
+        #carouselExampleIndicators {
+            width:80vw;
+            margin:0;
+        }
+    }
+    #testimonials {
+        h1 {
+            margin-top:.5em;
+            color:white;
+        }
+        #quotes {
+            font-size:1.5em;
+            margin: 0 1em;
+            color:white;
+        }
+    }
+    #contact {
+        h1{
+            background-color:red;
+            opacity:.6;
+        }
+        form {
+            #map {
+                display:none;
+            }
+            .wrapper {
+                width:50vw;
+            }
+            input {
+                width:50vw;
+                margin:0;
+            }  
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        .navbar {
+            display:flex;
+            justify-content: flex-end;
+            .fa-1x {
+                font-size: 1.5rem;
+            }
+            .navbar-toggler.toggler-example {
+                cursor: pointer;
+            }
+            .dark-blue-text {
+                color: white;
+            }
+            a:hover {
+                //border-bottom: .1em solid white;
+                color:white;
+                font-weight: 800;
+            }
+            .nav-item a {
+                color:white;
+                display:flex;
+                justify-content: flex-end;
+            }
+        }
+        .defaultnav {
+            display:none;
+        }
+        .name {
+            margin-right:0;
+            margin-left:1em;
+            margin-top: 13.5em;
+            font-size: .8em;
+            position:absolute;
+            opacity:.8;
+            color:white;
+        }
+        .sticky {
+            position:fixed;
+            top:0;
+            opacity: .9;
+            z-index:6;
+        }
+        .sticky-name {
+            margin:0;
+            position:absolute;
+            top: 14em;//297.75px;
+            left:1em;
+        }
+    }
+    #about {
+        .self-summary {
+            display:flex;
+            flex-direction: column;
+            margin:2em 0 0 0;
+            p {
+                font-size:1.4em;
+                width:80vw;
+                margin-bottom:2em;
+            }
+        }   
+        h1 {
+            font-size: 2em;
+            margin-bottom:.5em;
+        }
+    }
+    #portfolio {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        h1 {
+            font-size:4em;
+            margin-top:1em;
+            opacity:1;  
+        }
+        #carouselExampleIndicators {
+            width:80vw;
+        }
+    }
+    #testimonials {
+        h1 {
+            padding-top:3.4em;
+            padding-bottom:.5em;
+            font-size:3em;  
+        }
+        p {
+        }
+    }
+    #contact {
+        background-size: cover;
+        background-repeat: no-repeat;
+        h1 {
+            color:lightcyan;
+            font-size: 3em;  
+        }
+        form {
+            .container {
+                display:flex;
+                align-items: center;
+                margin: 0 0 0 0;
+            }
+            input {
+                width:70vw;
+            } 
+            .wrapper {
+                width:70vw;
+            }
+            .error-message {
+                margin: .3em 0 0 1.4em;
+                width:60vw;
+            }
+            textarea {
+                height:25vh;
+                width:70vw;
+            }
+        }
+    }
+}
+

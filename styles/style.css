@@ -52,297 +52,247 @@ table {
   border-spacing: 0;
 }
 
-body {
-  font-family: Helvetica, sans-serif;
-  background-color: black;
-  opacity: 0.79;
-}
-
-header {
-  background-image: url("whiterose.jpg");
+#name {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/whiterose.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
-header .navbar {
-  display: none;
+#name div {
+  position: relative;
+  top: 13.1em;
+  left: 4.2em;
+  opacity: 0.6;
 }
-header .defaultnav {
-  background-color: black;
-  opacity: 0;
-  width: 100vw;
-  height: 8vh;
-  text-align: center;
-}
-header .defaultnav ul {
-  list-style: none;
-  padding: 1.2em 0;
-  vertical-align: middle;
-}
-header .defaultnav li {
-  display: inline-block;
-  margin: 0 2em;
-}
-header .defaultnav a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  opacity: 0.7;
-  font-size: 1.2em;
-  text-transform: lowercase;
-}
-header .defaultnav a:hover {
-  text-decoration: none;
-  border-bottom: 0.1em solid white;
-  color: white;
-  opacity: 1;
-}
-header .name {
-  opacity: 0.7;
-  color: white;
-  margin: 10.4em 0 0 1em;
-}
-header .name h1 {
+#name div h1 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 5em;
+  color: lightsalmon;
 }
-header .name h2 {
+#name div h2 {
   font-size: 2em;
   text-transform: lowercase;
-}
-header .sticky {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 8vh;
-  opacity: 0.7;
-  z-index: 6;
-}
-header .sticky-name {
-  margin: 0;
-  position: absolute;
-  top: 14em;
-  left: 1em;
+  color: lightsalmon;
 }
 
 #about {
-  background-image: url("susan.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/reyes.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-#about .self-summary {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 4em;
+  overflow: hidden;
 }
-#about .self-summary img {
-  width: 25vw;
-  height: 100%;
-  margin: 0.5em;
+#about .about-wrapper {
+  display: flex;
+  flex-direction: column;
 }
-#about .self-summary p {
-  text-align: center;
-  color: white;
-  background-color: black;
-  opacity: 0.8;
-  text-transform: lowercase;
-  font-size: 2.5em;
-  line-height: 1.2em;
-  width: 50vw;
-  margin: 0.5em;
+#about .about-wrapper .info {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 9em;
+  margin-left: 3em;
 }
-#about h1 {
-  background-color: black;
-  color: #fad448;
-  text-transform: uppercase;
+#about .about-wrapper .info h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 4.3em;
+  font-size: 4em;
+  color: pink;
   opacity: 0.8;
-  padding: 0;
+  line-height: 1.2em;
+}
+#about .about-wrapper .info h3 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2em;
+  color: pink;
+  opacity: 0.8;
+  line-height: 1.2em;
+  margin: 0 3em;
+}
+#about .about-wrapper .info .icons {
+  display: flex;
+  justify-content: center;
+}
+#about .about-wrapper .info .icons a {
+  line-height: 1.2em;
+  opacity: 0.6;
+  color: pink;
+  font-size: 3em;
+  margin: 0 0.25em;
+}
+#about .about-wrapper .info .icons a:hover {
+  opacity: 1;
+}
+#about .about-wrapper .skills {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 50vh;
+  margin-right: 2em;
+}
+#about .about-wrapper .skills ul {
+  margin: 1em;
+}
+#about .about-wrapper .skills ul li {
+  font-weight: 800;
+  font-size: 1.7em;
+  color: pink;
+  opacity: 0.8;
+  line-height: 1.2em;
 }
 
 #portfolio {
-  background-image: url("rose.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/sunset.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 #portfolio h1 {
-  font-size: 5em;
   text-transform: uppercase;
   text-align: center;
   font-weight: 800;
-  color: white;
-  opacity: 0.6;
-  margin-bottom: 4em;
+  font-size: 5em;
+  color: #d6d6f9;
+  opacity: 0.7;
+  margin-bottom: 0.5em;
 }
-#portfolio #carouselExampleIndicators {
-  width: 40vw;
-  margin-top: 0;
-  margin-bottom: 5em;
+#portfolio .project-container {
+  display: flex;
+}
+#portfolio .project-container .project {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em;
+  padding: 5em 0.5em;
+}
+#portfolio .project-container .project h2 {
+  color: white;
+  font-size: 3em;
+}
+#portfolio .project-container .project h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin: 1em 1em;
+  opacity: 0.6;
+}
+#portfolio .project-container .project button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  opacity: 0.6;
+}
+#portfolio .project-container .project button:hover {
+  opacity: 1;
 }
 
-#testimonials {
-  background-image: url("aspen.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-  color: white;
-  text-align: center;
-  opacity: 0.7;
-}
-#testimonials h1 {
-  font-size: 5em;
-  text-transform: uppercase;
-  font-weight: 800;
-  padding: 1em 0;
-}
-#testimonials #quotes {
-  color: white;
-  font-weight: 800;
-  font-size: 2.5em;
-  margin-left: 4em;
-  margin-right: 4em;
-}
-#testimonials p {
-  line-height: 1.1em;
-  margin-bottom: 2em;
+.scrolling .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
 #contact {
-  background-image: url("cactus.jpg");
-  background-size: contain;
-  background-position: center;
-  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/moo.jpg");
+  background-size: cover;
+  background-position: 10% 10%;
   height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-#contact h1 {
-  margin: 0.5em 0 0 0;
+#contact .contact-container {
+  display: flex;
+  width: 90vw;
+  height: 50vh;
+  margin-left: 15em;
+}
+#contact .contact-container h3 {
+  font-weight: 800;
   font-size: 5em;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 800;
-  opacity: 0.87;
-}
-#contact form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#contact form .container {
-  display: flex;
-  align-items: center;
-  margin: 2em 0 1em 0;
-}
-#contact form #map {
-  height: 25vh;
-  width: 25vw;
-}
-#contact form .wrapper {
-  display: flex;
-  height: 25vh;
-  width: 25vw;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 0;
-}
-#contact form .wrapper div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-#contact form input {
-  height: 5vh;
-  width: 24vw;
-  margin: 0 0 0em 1em;
-  border-radius: 0.4em;
-  border: none;
-}
-#contact form input::placeholder {
-  color: grey;
+  color: lightblue;
   opacity: 0.7;
-  padding: 0 0 0 1em;
+  line-height: 1.2em;
+  width: 60vw;
 }
-#contact form textarea {
-  width: 50vw;
-  height: 30vh;
-  border-radius: 0.4em;
-  border: none;
-}
-#contact form textarea::placeholder {
-  color: grey;
-  opacity: 0.7;
-  padding: 0.3em 0 0 1em;
-}
-#contact form button {
-  width: 50vw;
-  height: 2.5em;
-  font-family: Helvetica;
-  color: black;
+#contact .contact-container h4 {
   font-weight: 800;
-  opacity: 0.68;
-  margin: 1em 0 0em 0;
-  border-radius: 0.4em;
-  font-size: 1.1em;
-  text-transform: uppercase;
+  font-size: 3em;
+  color: lightblue;
+  opacity: 0.7;
+  line-height: 1.2em;
 }
-#contact form .error-message {
-  display: none;
-  text-align: center;
-  font-size: 0.8em;
-  color: red;
-  background-color: white;
-  opacity: 0.75;
-  font-weight: 400;
-  margin: 0.2em 0 0.4em 1em;
-  padding: 0.2em 0.4em;
-  text-transform: lowercase;
-  border-radius: 0.4em;
-}
-#contact form .error {
-  border: 0.15em solid red;
+#contact .contact-container h5 {
+  margin-right: 3em;
+  font-weight: 800;
+  font-size: 2em;
+  color: lightblue;
+  opacity: 0.7;
+  line-height: 1.2em;
 }
 
-footer {
-  height: 8vh;
-  width: 100vw;
-  text-align: center;
-  background-color: black;
-  opacity: 0.7;
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.8);
 }
-footer .fab {
-  color: grey;
+
+nav ul {
+  display: flex;
+  margin: 1em;
+  position: absolute;
+  right: 0;
 }
-footer .fab:hover {
+nav ul a {
+  text-decoration: none;
+  color: white !important;
+  text-transform: lowercase;
+  padding: 0 2em;
+  opacity: 0.6;
+}
+nav ul a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+footer ul {
+  display: flex;
+  margin: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+footer ul i {
   color: white;
+  padding: 0 1em;
+  opacity: 0.6;
 }
-footer i {
-  display: inline-block;
-  margin: 0.5em 0.3em 0.3em 0.3em;
+footer ul i:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 710px) {
