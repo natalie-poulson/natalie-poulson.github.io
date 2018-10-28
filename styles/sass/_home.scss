@@ -1,0 +1,60 @@
+#home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/sunset.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    .name {
+        display:flex;
+        flex-direction: column;
+        margin-left:2em;
+        margin-bottom:2em;
+        opacity:.8;
+        h1{
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 5em;
+            color:rgb(214, 214, 249);
+        }
+        h2 {
+            font-size: 3em;
+            text-transform:lowercase;
+            color:rgb(214, 214, 249);
+        }
+    }
+    .project-container {
+        .project {
+            display:flex;
+            flex-direction: column;
+            margin:1em 2em;
+            h2 {
+                color:rgb(214, 214, 249);
+                font-size:3em;
+                text-transform: uppercase;
+                font-weight: 800;
+                opacity:.6;
+            }
+            h3 {
+                color:rgb(214, 214, 249);
+                font-size:1.5em;
+                opacity: .6;
+            }
+            a {
+                text-decoration: none;
+                color:rgb(214, 214, 249);
+                font-size:1.2em;
+                text-transform: uppercase;
+                font-weight: 800;
+                opacity: .5;
+                margin-top:.5em;
+                margin-bottom:1em;
+                &:hover {
+                    opacity:1;
+                }
+            }
+        }
+    }
+}
