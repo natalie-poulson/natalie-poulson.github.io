@@ -12,7 +12,7 @@
         flex-direction: column;
         margin-left:2em;
         margin-bottom:2em;
-        opacity:.8;
+        opacity:.7;
         h1{
             text-transform: uppercase;
             font-weight: 800;
@@ -31,24 +31,24 @@
             flex-direction: column;
             margin:1em 2em;
             h2 {
-                color:rgb(214, 214, 249);
+                color:rgb(249, 214, 242);
                 font-size:3em;
-                text-transform: uppercase;
+                text-transform: lowercase;
                 font-weight: 800;
-                opacity:.6;
+                opacity:.4;
             }
             h3 {
-                color:rgb(214, 214, 249);
+                color:rgb(250, 220, 244);
                 font-size:1.5em;
-                opacity: .6;
+                opacity: .4;
             }
             a {
                 text-decoration: none;
-                color:rgb(214, 214, 249);
+                color:rgb(249, 214, 242);
                 font-size:1.2em;
                 text-transform: uppercase;
                 font-weight: 800;
-                opacity: .5;
+                opacity: .4;
                 margin-top:.5em;
                 margin-bottom:1em;
                 &:hover {

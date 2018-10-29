@@ -1,1 +1,1 @@
-console.log('hi');
+console.log('let\'s build together!');

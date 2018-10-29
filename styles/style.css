@@ -140,7 +140,7 @@ table {
   flex-direction: column;
   margin-left: 2em;
   margin-bottom: 2em;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 #home .name h1 {
   text-transform: uppercase;
@@ -159,24 +159,24 @@ table {
   margin: 1em 2em;
 }
 #home .project-container .project h2 {
-  color: #d6d6f9;
+  color: #f9d6f2;
   font-size: 3em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 800;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 #home .project-container .project h3 {
-  color: #d6d6f9;
+  color: #fadcf4;
   font-size: 1.5em;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 #home .project-container .project a {
   text-decoration: none;
-  color: #d6d6f9;
+  color: #f9d6f2;
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: 800;
-  opacity: 0.5;
+  opacity: 0.4;
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
