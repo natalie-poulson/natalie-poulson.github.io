@@ -227,11 +227,17 @@ table {
   #about .about-wrapper .info .icons a {
     font-size: 1.6em;
   }
+  #about .about-wrapper .skills {
+    margin: 0 1em;
+  }
   #about .about-wrapper .skills ul li {
     font-size: 0.7em;
   }
 }
 @media screen and (max-width: 378px) {
+  #about .about-wrapper .skills {
+    margin: 0 1em;
+  }
   #about .about-wrapper .skills ul {
     margin: 0.2em;
   }
@@ -434,6 +440,7 @@ table {
 body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
 }
 
 nav ul {
@@ -468,173 +475,6 @@ footer ul i {
 }
 footer ul i:hover {
   opacity: 1;
-}
-
-@media screen and (max-width: 710px) {
-  header .name {
-    color: orange;
-    opacity: 1;
-  }
-
-  #about .self-summary p {
-    font-size: 1.5em;
-  }
-  #about .self-summary img {
-    width: 45vw;
-  }
-  #about h1 {
-    font-size: 2.8em;
-  }
-
-  #portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #portfolio h1 {
-    margin: 0 0 1em 0;
-  }
-  #portfolio #carouselExampleIndicators {
-    width: 80vw;
-    margin: 0;
-  }
-
-  #testimonials h1 {
-    margin-top: 0.5em;
-    color: white;
-  }
-  #testimonials #quotes {
-    font-size: 1.5em;
-    margin: 0 1em;
-    color: white;
-  }
-
-  #contact h1 {
-    background-color: red;
-    opacity: 0.6;
-  }
-  #contact form #map {
-    display: none;
-  }
-  #contact form .wrapper {
-    width: 50vw;
-  }
-  #contact form input {
-    width: 50vw;
-    margin: 0;
-  }
-}
-@media screen and (max-width: 400px) {
-  header .navbar {
-    display: flex;
-    justify-content: flex-end;
-  }
-  header .navbar .fa-1x {
-    font-size: 1.5rem;
-  }
-  header .navbar .navbar-toggler.toggler-example {
-    cursor: pointer;
-  }
-  header .navbar .dark-blue-text {
-    color: white;
-  }
-  header .navbar a:hover {
-    color: white;
-    font-weight: 800;
-  }
-  header .navbar .nav-item a {
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-  }
-  header .defaultnav {
-    display: none;
-  }
-  header .name {
-    margin-right: 0;
-    margin-left: 1em;
-    margin-top: 13.5em;
-    font-size: 0.8em;
-    position: absolute;
-    opacity: 0.8;
-    color: white;
-  }
-  header .sticky {
-    position: fixed;
-    top: 0;
-    opacity: 0.9;
-    z-index: 6;
-  }
-  header .sticky-name {
-    margin: 0;
-    position: absolute;
-    top: 14em;
-    left: 1em;
-  }
-
-  #about .self-summary {
-    display: flex;
-    flex-direction: column;
-    margin: 2em 0 0 0;
-  }
-  #about .self-summary p {
-    font-size: 1.4em;
-    width: 80vw;
-    margin-bottom: 2em;
-  }
-  #about h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-
-  #portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  #portfolio h1 {
-    font-size: 4em;
-    margin-top: 1em;
-    opacity: 1;
-  }
-  #portfolio #carouselExampleIndicators {
-    width: 80vw;
-  }
-
-  #testimonials h1 {
-    padding-top: 3.4em;
-    padding-bottom: 0.5em;
-    font-size: 3em;
-  }
-  #contact {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  #contact h1 {
-    color: lightcyan;
-    font-size: 3em;
-  }
-  #contact form .container {
-    display: flex;
-    align-items: center;
-    margin: 0 0 0 0;
-  }
-  #contact form input {
-    width: 70vw;
-  }
-  #contact form .wrapper {
-    width: 70vw;
-  }
-  #contact form .error-message {
-    margin: 0.3em 0 0 1.4em;
-    width: 60vw;
-  }
-  #contact form textarea {
-    height: 25vh;
-    width: 70vw;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
