@@ -49,7 +49,7 @@ footer {
 }
 
 // Media Queries
-@media screen and (max-width: 378px) {
+@media screen and (max-device-width:378px), screen and (max-width:378px) {
     nav {
         ul{
             a {

@@ -32,7 +32,7 @@
 }
 
 // Media Queries
-@media screen and (max-width: 919px) {
+@media screen and (max-device-width:919px), screen and (max-width:919px) {
     #contact {
         .contact-container {
             h3 {
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (max-width: 757px) {
+@media screen and (max-device-width:757px), screen and (max-width:757px) {
     #contact {
         .contact-container {
             h3 {
@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (max-width: 458px) {
+@media screen and (max-device-width:458px), screen and (max-width:458px) {
     #contact {
         .contact-container {
             h3 {
@@ -84,7 +84,7 @@
     }
 }
 
-@media screen and (max-width: 382px) {
+@media screen and (max-device-width:382px), screen and (max-width:382px) {
     #contact {
         .contact-container {
             h3 {

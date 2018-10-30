@@ -75,7 +75,7 @@
 }
 
 // Media Queries
-@media screen and (max-width: 1199px) {
+@media screen and (max-device-width:1199px), screen and (max-width:1199px) {
     #about {
         .about-wrapper {
             .info {
@@ -102,7 +102,7 @@
     }
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-device-width:927px), screen and (max-width:927px) {
     #about {
         .about-wrapper {
             .info {
@@ -132,7 +132,7 @@
     }
 }
 
-@media screen and (max-width: 734px) {
+@media screen and (max-device-width:734px), screen and (max-width:734px) {
     #about {
         .about-wrapper {
             .info {
@@ -162,7 +162,7 @@
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-device-width:610px), screen and (max-width:610px) {
     #about {
         .about-wrapper {
             .info {
@@ -192,7 +192,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width:500px), screen and (max-width:500px) {
     #about {
         .about-wrapper {
             .info {
@@ -222,7 +222,7 @@
     }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-device-width:428px), screen and (max-width:428px) {
     #about {
         .about-wrapper {
             .info {
@@ -253,8 +253,7 @@
         }   
     }
 }
-
-@media screen and (max-width: 378px) {
+@media screen and (max-device-width:378px), screen and (max-width:378px) {
     #about {
         .about-wrapper {
             .info {

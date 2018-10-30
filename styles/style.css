@@ -127,7 +127,7 @@ table {
   line-height: 1.2em;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-device-width: 1199px), screen and (max-width: 1199px) {
   #about .about-wrapper .info h1 {
     font-size: 3em;
   }
@@ -307,7 +307,7 @@ table {
   opacity: 1;
 }
 
-@media screen and (max-width: 971px) {
+@media screen and (max-device-width: 971px), screen and (max-width: 971px) {
   #home .name h1 {
     font-size: 4em;
   }
@@ -326,12 +326,12 @@ table {
     margin-bottom: 1em;
   }
 }
-@media screen and (max-width: 707px) {
+@media screen and (max-device-width: 707px), screen and (max-width: 707px) {
   #home .name h1 {
     font-size: 3.2em;
   }
 }
-@media screen and (max-width: 548px) {
+@media screen and (max-device-width: 548px), screen and (max-width: 548px) {
   #home .name h1 {
     font-size: 2.8em;
   }
@@ -348,24 +348,7 @@ table {
     font-size: 0.8em;
   }
 }
-@media screen and (max-width: 478px) {
-  #home .name h1 {
-    font-size: 2.2em;
-  }
-  #home .name h2 {
-    font-size: 1.4em;
-  }
-  #home .project-container .project h2 {
-    font-size: 1.3em;
-  }
-  #home .project-container .project h3 {
-    font-size: 1em;
-  }
-  #home .project-container .project a {
-    font-size: 0.8em;
-  }
-}
-@media screen and (max-width: 478px) {
+@media screen and (max-device-width: 478px), screen and (max-width: 478px) {
   #home .name {
     margin-top: 3em;
     margin-bottom: 0.5em;
@@ -407,7 +390,7 @@ table {
   line-height: 1.2em;
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-device-width: 919px), screen and (max-width: 919px) {
   #contact .contact-container h3 {
     font-size: 4em;
   }
@@ -423,7 +406,7 @@ table {
     font-size: 1.5em;
   }
 }
-@media screen and (max-width: 757px) {
+@media screen and (max-device-width: 757px), screen and (max-width: 757px) {
   #contact .contact-container h3 {
     font-size: 2.4em;
   }
@@ -431,7 +414,7 @@ table {
     font-size: 1.2em;
   }
 }
-@media screen and (max-width: 458px) {
+@media screen and (max-device-width: 458px), screen and (max-width: 458px) {
   #contact .contact-container h3 {
     font-size: 2em;
   }
@@ -439,7 +422,7 @@ table {
     font-size: 1.2em;
   }
 }
-@media screen and (max-width: 382px) {
+@media screen and (max-device-width: 382px), screen and (max-width: 382px) {
   #contact .contact-container h3 {
     font-size: 1.7em;
   }
@@ -488,7 +471,7 @@ footer ul i:hover {
   opacity: 1;
 }
 
-@media screen and (max-width: 378px) {
+@media screen and (max-device-width: 378px), screen and (max-width: 378px) {
   nav ul a {
     padding: 0 1em;
     font-size: 0.8em;

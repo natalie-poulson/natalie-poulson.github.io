@@ -62,7 +62,7 @@
 }
 
 // Media Queries
-@media screen and (max-width: 971px) {
+@media screen and (max-device-width:971px), screen and (max-width:971px) {
     #home {
         .name {
             h1{
@@ -90,7 +90,7 @@
     }
 }
 
-@media screen and (max-width: 707px) {
+@media screen and (max-device-width:707px), screen and (max-width:707px) {
     #home {
         .name {
             h1{
@@ -100,7 +100,7 @@
     }
 }
 
-@media screen and (max-width: 548px) {
+@media screen and (max-device-width:548px), screen and (max-width:548px) {
     #home {
         .name {
             h1{
@@ -126,33 +126,7 @@
     }
 }
 
-@media screen and (max-width: 478px) {
-    #home {
-        .name {
-            h1{
-                font-size: 2.2em;
-            }
-            h2 {
-                font-size: 1.4em;
-            }
-        }
-        .project-container {
-            .project {
-                h2 {
-                    font-size:1.3em;
-                }
-                h3 {
-                    font-size:1em;
-                }
-                a {
-                    font-size:.8em;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 478px) {
+@media screen and (max-device-width:478px), screen and (max-width:478px) {
     #home {
         .name {
             margin-top:3em;
