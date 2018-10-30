@@ -141,7 +141,7 @@ table {
     font-size: 1.3em;
   }
 }
-@media screen and (max-width: 927px) {
+@media screen and (max-device-width: 927px), screen and (max-width: 927px) {
   #about .about-wrapper .info {
     width: 100vw;
     margin-left: 1em;
@@ -159,7 +159,7 @@ table {
     font-size: 1.3em;
   }
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-device-width: 734px), screen and (max-width: 734px) {
   #about .about-wrapper .info {
     width: 100vw;
     margin-left: 1em;
@@ -177,7 +177,7 @@ table {
     font-size: 1.1em;
   }
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-device-width: 610px), screen and (max-width: 610px) {
   #about .about-wrapper .info {
     width: 100vw;
     margin-left: 1em;
@@ -195,7 +195,7 @@ table {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px), screen and (max-width: 500px) {
   #about .about-wrapper .info {
     width: 100vw;
     margin-left: 1em;
@@ -213,7 +213,7 @@ table {
     font-size: 0.8em;
   }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-device-width: 428px), screen and (max-width: 428px) {
   #about .about-wrapper .info {
     width: 100vw;
     margin-left: 1em;
@@ -235,9 +235,19 @@ table {
     font-size: 0.7em;
   }
 }
-@media screen and (max-width: 378px) {
+@media screen and (max-device-width: 378px), screen and (max-width: 378px) {
   #about .about-wrapper .info {
-    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 2em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 1.3em;
   }
   #about .about-wrapper .skills {
     margin: 0 1em;
@@ -349,12 +359,20 @@ table {
   }
 }
 @media screen and (max-device-width: 478px), screen and (max-width: 478px) {
-  #home .name {
-    margin-top: 3em;
-    margin-bottom: 0.5em;
-  }
   #home .name h1 {
-    font-size: 3em;
+    font-size: 2.8em;
+  }
+  #home .name h2 {
+    font-size: 1.8em;
+  }
+  #home .project-container .project h2 {
+    font-size: 1.2em;
+  }
+  #home .project-container .project h3 {
+    font-size: 0.8em;
+  }
+  #home .project-container .project a {
+    font-size: 0.5em;
   }
 }
 #contact {

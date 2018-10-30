@@ -129,10 +129,24 @@
 @media screen and (max-device-width:478px), screen and (max-width:478px) {
     #home {
         .name {
-            margin-top:3em;
-            margin-bottom:.5em;
             h1{
-                font-size: 3em;
+                font-size: 2.8em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+        .project-container {
+            .project {
+                h2 {
+                    font-size:1.2em;
+                }
+                h3 {
+                    font-size:.8em;
+                }
+                a {
+                    font-size:.5em;
+                }
             }
         }
     }

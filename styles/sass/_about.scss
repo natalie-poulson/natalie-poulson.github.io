@@ -257,7 +257,19 @@
     #about {
         .about-wrapper {
             .info {
-                margin-top: 0;
+                display:flex;
+                justify-content: center;
+                h1 {
+                    font-size: 2em;
+                }
+                h3 {
+                    font-size: 1em;
+                }
+                .icons {
+                    a {
+                        font-size: 1.3em;
+                    }
+                }
             }
             .skills {
                 margin:0 1em;
