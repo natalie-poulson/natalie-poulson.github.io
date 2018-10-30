@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: center;
     overflow:hidden;
-
     .name {
         display:flex;
         flex-direction: column;
@@ -155,6 +154,8 @@
 @media screen and (max-width: 478px) {
     #home {
         .name {
+            margin-top:3em;
+            margin-bottom:.5em;
             h1{
                 font-size: 3em;
             }

@@ -47,3 +47,15 @@ footer {
         }
     }
 }
+
+// Media Queries
+@media screen and (max-width: 378px) {
+    nav {
+        ul{
+            a {
+                padding: 0 1em;
+                font-size:.8em;
+            }
+        }
+    }
+}

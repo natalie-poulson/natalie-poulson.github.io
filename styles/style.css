@@ -361,6 +361,10 @@ table {
   }
 }
 @media screen and (max-width: 478px) {
+  #home .name {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+  }
   #home .name h1 {
     font-size: 3em;
   }
@@ -478,6 +482,13 @@ footer ul i {
 }
 footer ul i:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 378px) {
+  nav ul a {
+    padding: 0 1em;
+    font-size: 0.8em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
