@@ -67,6 +67,7 @@ table {
 #about .about-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 1em;
 }
 #about .about-wrapper .info {
   display: flex;
@@ -252,6 +253,7 @@ table {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  padding: 1em;
 }
 #home .name {
   display: flex;
@@ -385,6 +387,7 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }
 #contact .contact-container h3 {
   font-weight: 800;
