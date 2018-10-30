@@ -236,6 +236,9 @@ table {
   }
 }
 @media screen and (max-width: 378px) {
+  #about .about-wrapper .info {
+    margin-top: 0;
+  }
   #about .about-wrapper .skills {
     margin: 0 1em;
   }

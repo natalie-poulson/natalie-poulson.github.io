@@ -257,6 +257,9 @@
 @media screen and (max-width: 378px) {
     #about {
         .about-wrapper {
+            .info {
+                margin-top: 0;
+            }
             .skills {
                 margin:0 1em;
                 ul {
