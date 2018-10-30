@@ -72,6 +72,7 @@ table {
   display: flex;
   flex-direction: column;
   width: 80vw;
+  height: 50vh;
   margin-top: 9em;
   margin-left: 3em;
 }
@@ -115,7 +116,7 @@ table {
   margin-right: 2em;
 }
 #about .about-wrapper .skills ul {
-  margin: 1em;
+  margin: 0.5em 1em;
 }
 #about .about-wrapper .skills ul li {
   font-weight: 800;
@@ -125,6 +126,116 @@ table {
   line-height: 1.2em;
 }
 
+@media screen and (max-width: 1199px) {
+  #about .about-wrapper .info h1 {
+    font-size: 3em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1.6em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 2.6em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 927px) {
+  #about .about-wrapper .info {
+    width: 100vw;
+    margin-left: 1em;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 3em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1.6em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 2.6em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 734px) {
+  #about .about-wrapper .info {
+    width: 100vw;
+    margin-left: 1em;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 2.4em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1.2em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 2em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 610px) {
+  #about .about-wrapper .info {
+    width: 100vw;
+    margin-left: 1em;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 2.2em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1.1em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 2em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about .about-wrapper .info {
+    width: 100vw;
+    margin-left: 1em;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 2.4em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1.1em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 2em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 428px) {
+  #about .about-wrapper .info {
+    width: 100vw;
+    margin-left: 1em;
+  }
+  #about .about-wrapper .info h1 {
+    font-size: 2.2em;
+    margin: 0.1em;
+  }
+  #about .about-wrapper .info h3 {
+    font-size: 1em;
+  }
+  #about .about-wrapper .info .icons a {
+    font-size: 1.6em;
+  }
+  #about .about-wrapper .skills ul li {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 378px) {
+  #about .about-wrapper .skills ul {
+    margin: 0.2em;
+  }
+}
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/sunset.jpg");
   background-size: cover;
@@ -184,6 +295,69 @@ table {
   opacity: 1;
 }
 
+@media screen and (max-width: 971px) {
+  #home .name h1 {
+    font-size: 4em;
+  }
+  #home .name h2 {
+    font-size: 1.8em;
+  }
+  #home .project-container .project h2 {
+    font-size: 2em;
+  }
+  #home .project-container .project h3 {
+    font-size: 1.2em;
+  }
+  #home .project-container .project a {
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+}
+@media screen and (max-width: 707px) {
+  #home .name h1 {
+    font-size: 3.2em;
+  }
+}
+@media screen and (max-width: 548px) {
+  #home .name h1 {
+    font-size: 2.8em;
+  }
+  #home .name h2 {
+    font-size: 1.8em;
+  }
+  #home .project-container .project h2 {
+    font-size: 1.6em;
+  }
+  #home .project-container .project h3 {
+    font-size: 1.1em;
+  }
+  #home .project-container .project a {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 478px) {
+  #home .name h1 {
+    font-size: 2.2em;
+  }
+  #home .name h2 {
+    font-size: 1.4em;
+  }
+  #home .project-container .project h2 {
+    font-size: 1.3em;
+  }
+  #home .project-container .project h3 {
+    font-size: 1em;
+  }
+  #home .project-container .project a {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 478px) {
+  #home .name h1 {
+    font-size: 3em;
+  }
+}
 #contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/moo.jpg");
   background-size: cover;
@@ -217,6 +391,46 @@ table {
   line-height: 1.2em;
 }
 
+@media screen and (max-width: 919px) {
+  #contact .contact-container h3 {
+    font-size: 4em;
+  }
+  #contact .contact-container h5 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 742px) {
+  #contact .contact-container h3 {
+    font-size: 3em;
+  }
+  #contact .contact-container h5 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 757px) {
+  #contact .contact-container h3 {
+    font-size: 2.4em;
+  }
+  #contact .contact-container h5 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 458px) {
+  #contact .contact-container h3 {
+    font-size: 2em;
+  }
+  #contact .contact-container h5 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 382px) {
+  #contact .contact-container h3 {
+    font-size: 1.7em;
+  }
+  #contact .contact-container h5 {
+    font-size: 1em;
+  }
+}
 body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
