@@ -251,6 +251,7 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 #home .name {
   display: flex;
@@ -373,6 +374,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 #contact .contact-container {
   display: flex;
@@ -441,6 +443,7 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
   height: 100vh;
+  overflow: hidden;
 }
 
 nav ul {
