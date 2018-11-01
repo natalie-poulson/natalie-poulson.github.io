@@ -128,9 +128,8 @@
 
 @media screen and (max-device-width:478px), screen and (max-width:478px) {
     #home {
-        height:100vh;
-        width:100vw;
         .name {
+            margin-top:7em;
             h1{
                 font-size: 2.8em;
             }

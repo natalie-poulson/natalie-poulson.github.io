@@ -75,7 +75,7 @@
 }
 
 // Media Queries
-@media screen and (max-device-width:1199px), screen and (max-width:1199px) {
+@media screen and (max-width:1199px) {
     #about {
         .about-wrapper {
             .info {
@@ -102,13 +102,12 @@
     }
 }
 
-@media screen and (max-device-width:927px), screen and (max-width:927px) {
+@media screen and (max-width:927px) {
     #about {
         .about-wrapper {
             .info {
                 width:100vw;
                 margin-left:1em;
-
                 h1 {
                     font-size: 3em;
                 }
@@ -132,13 +131,10 @@
     }
 }
 
-@media screen and (max-device-width:734px), screen and (max-width:734px) {
+@media screen and (max-width:734px) {
     #about {
         .about-wrapper {
             .info {
-                width:100vw;
-                margin-left:1em;
-
                 h1 {
                     font-size: 2.4em;
                 }
@@ -162,13 +158,10 @@
     }
 }
 
-@media screen and (max-device-width:610px), screen and (max-width:610px) {
+@media screen and (max-width:610px) {
     #about {
         .about-wrapper {
             .info {
-                width:100vw;
-                margin-left:1em;
-
                 h1 {
                     font-size: 2.2em;
                 }
@@ -192,13 +185,10 @@
     }
 }
 
-@media screen and (max-device-width:500px), screen and (max-width:500px) {
+@media screen and  (max-width:500px) {
     #about {
         .about-wrapper {
             .info {
-                width:100vw;
-                margin-left:1em;
-
                 h1 {
                     font-size: 2.4em;
                 }
@@ -222,13 +212,10 @@
     }
 }
 
-@media screen and (max-device-width:428px), screen and (max-width:428px) {
+@media screen and (max-width:428px) {
     #about {
         .about-wrapper {
             .info {
-                width:100vw;
-                margin-left:1em;
-
                 h1 {
                     font-size: 2.2em;
                     margin:.1em;
@@ -253,17 +240,11 @@
         }   
     }
 }
-@media screen and (max-device-width:378px), screen and (max-width:378px) {
+@media screen and (max-width:378px) {
     #about {
-        height:100vh;
-        width:100vw;
         .about-wrapper {
             .info {
-                display:flex;
-                justify-content: center;
-                align-items: center;
-                height:75vh;
-                margin:0;
+                margin-top:7em;
                 h1 {
                     font-size: 2em;
                 }

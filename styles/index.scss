@@ -50,7 +50,7 @@ footer {
 }
 
 // Media Queries
-@media screen and (max-device-width:378px), screen and (max-width:378px) {
+@media screen and (max-width:420px) {
     nav {
         ul{
             a {
@@ -58,5 +58,8 @@ footer {
                 font-size:.8em;
             }
         }
+    }
+    footer {
+        display:none;       
     }
 }
