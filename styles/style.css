@@ -236,9 +236,15 @@ table {
   }
 }
 @media screen and (max-device-width: 378px), screen and (max-width: 378px) {
+  #about {
+    height: 100vh;
+    width: 100vw;
+  }
   #about .about-wrapper .info {
     display: flex;
     justify-content: center;
+    height: 75vh;
+    margin: 0;
   }
   #about .about-wrapper .info h1 {
     font-size: 2em;
@@ -359,6 +365,10 @@ table {
   }
 }
 @media screen and (max-device-width: 478px), screen and (max-width: 478px) {
+  #home {
+    height: 100vh;
+    width: 100vw;
+  }
   #home .name h1 {
     font-size: 2.8em;
   }
@@ -441,6 +451,10 @@ table {
   }
 }
 @media screen and (max-device-width: 382px), screen and (max-width: 382px) {
+  #contact {
+    height: 100vh;
+    width: 100vw;
+  }
   #contact .contact-container h3 {
     font-size: 1.7em;
   }
@@ -452,6 +466,7 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
 }
 

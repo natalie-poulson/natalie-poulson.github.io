@@ -255,10 +255,14 @@
 }
 @media screen and (max-device-width:378px), screen and (max-width:378px) {
     #about {
+        height:100vh;
+        width:100vw;
         .about-wrapper {
             .info {
                 display:flex;
                 justify-content: center;
+                height:75vh;
+                margin:0;
                 h1 {
                     font-size: 2em;
                 }
