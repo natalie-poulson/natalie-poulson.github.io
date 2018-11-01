@@ -328,7 +328,7 @@ table {
     font-size: 0.8em;
   }
 }
-@media screen and (max-device-width: 478px), screen and (max-width: 478px) {
+@media screen and (max-device-width: 488px), screen and (max-width: 488px) {
   #home .name h1 {
     font-size: 2em;
   }
@@ -343,6 +343,14 @@ table {
   }
   #home .project-container .project a {
     font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 372px) {
+  #home .name h1 {
+    font-size: 1.7em;
+  }
+  #home .name h2 {
+    font-size: 1.3em;
   }
 }
 #contact {
