@@ -8,12 +8,10 @@
     flex-direction: column;
     justify-content: center;
     overflow:hidden;
-    padding:1em;
     .name {
         display:flex;
         flex-direction: column;
-        margin-left:2em;
-        margin-bottom:2em;
+        margin:2em;
         opacity:.7;
         h1{
             text-transform: uppercase;
@@ -82,8 +80,6 @@
                 }
                 a {
                     font-size:1em;
-                    margin-top:.5em;
-                    margin-bottom:1em;
                 }
             }
         }
@@ -129,9 +125,8 @@
 @media screen and (max-device-width:478px), screen and (max-width:478px) {
     #home {
         .name {
-            margin-top:6em;
             h1{
-                font-size: 2.8em;
+                font-size: 2em;
             }
             h2 {
                 font-size: 1.8em;
