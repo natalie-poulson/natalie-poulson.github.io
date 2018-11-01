@@ -185,6 +185,9 @@ table {
   }
 }
 @media screen and (max-width: 500px) {
+  #about .about-wrapper .info h1 {
+    font-size: 1.7em;
+  }
   #about .about-wrapper .info h3 {
     font-size: 1em;
   }
@@ -210,6 +213,13 @@ table {
   }
 }
 @media screen and (max-width: 378px) {
+  #about .about-wrapper .info h1 {
+    font-size: 1.2em;
+  }
+  #about .about-wrapper .info h3 {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+  }
   #about .about-wrapper .info .icons a {
     font-size: 1.3em;
   }
