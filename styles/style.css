@@ -243,6 +243,7 @@ table {
   #about .about-wrapper .info {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 75vh;
     margin: 0;
   }
@@ -256,10 +257,12 @@ table {
     font-size: 1.3em;
   }
   #about .about-wrapper .skills {
-    margin: 0 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   #about .about-wrapper .skills ul {
-    margin: 0.2em;
+    margin: 0.5em;
   }
 }
 #home {

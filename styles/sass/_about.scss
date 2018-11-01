@@ -261,6 +261,7 @@
             .info {
                 display:flex;
                 justify-content: center;
+                align-items: center;
                 height:75vh;
                 margin:0;
                 h1 {
@@ -276,9 +277,11 @@
                 }
             }
             .skills {
-                margin:0 1em;
+                margin:0;
+                display:flex;
+                justify-content: center;
                 ul {
-                    margin:.2em;
+                    margin:.5em;
                 } 
             } 
         }   
