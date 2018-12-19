@@ -106,6 +106,7 @@ table {
 }
 #about .about-wrapper .info .icons a:hover {
   opacity: 1;
+  transform: scale(1.3);
 }
 #about .about-wrapper .skills {
   display: flex;
@@ -373,12 +374,19 @@ table {
   justify-content: center;
   padding: 1em;
 }
-#contact .contact-container h3 {
+#contact .contact-container a {
+  text-decoration: none;
+}
+#contact .contact-container a h3 {
   font-weight: 800;
-  font-size: 5em;
+  font-size: 4.5em;
   color: lightblue;
   opacity: 0.7;
   line-height: 1.2em;
+}
+#contact .contact-container a h3:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 #contact .contact-container h5 {
   font-weight: 800;
@@ -389,15 +397,15 @@ table {
 }
 
 @media screen and (max-width: 919px) {
-  #contact .contact-container h3 {
-    font-size: 4em;
+  #contact .contact-container a h3 {
+    font-size: 3.5em;
   }
   #contact .contact-container h5 {
     font-size: 2em;
   }
 }
 @media screen and (max-width: 742px) {
-  #contact .contact-container h3 {
+  #contact .contact-container a h3 {
     font-size: 3em;
   }
   #contact .contact-container h5 {
@@ -405,24 +413,24 @@ table {
   }
 }
 @media screen and (max-width: 757px) {
-  #contact .contact-container h3 {
-    font-size: 2.4em;
+  #contact .contact-container a h3 {
+    font-size: 2.2em;
   }
   #contact .contact-container h5 {
     font-size: 1.2em;
   }
 }
 @media screen and (max-width: 458px) {
-  #contact .contact-container h3 {
-    font-size: 2em;
+  #contact .contact-container a h3 {
+    font-size: 1.7em;
   }
   #contact .contact-container h5 {
     font-size: 1.2em;
   }
 }
 @media screen and (max-width: 382px) {
-  #contact .contact-container h3 {
-    font-size: 1.7em;
+  #contact .contact-container a h3 {
+    font-size: 1.5em;
   }
   #contact .contact-container h5 {
     font-size: 1em;
@@ -448,10 +456,12 @@ nav ul a {
   text-transform: lowercase;
   padding: 0 2em;
   opacity: 0.6;
+  display: inline-block;
 }
 nav ul a:hover {
   opacity: 1;
   text-decoration: none;
+  transform: scale(1.3);
 }
 
 footer ul {
@@ -468,6 +478,7 @@ footer ul i {
 }
 footer ul i:hover {
   opacity: 1;
+  transform: scale(1.3);
 }
 
 @media screen and (max-width: 420px) {
