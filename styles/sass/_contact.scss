@@ -28,15 +28,24 @@
                 }
             }
         }
-       
         h5{
             font-weight: 800;
             font-size: 2em;
             color:lightblue;
             opacity:.7;
             line-height: 1.2em;
+            overflow:hidden;
+            white-space:nowrap;
+            margin: 0 auto;
+            text-align:center;
+            animation : typing 2.5s steps(35,end);
         }
     }
+}
+
+@keyframes typing{
+    from{width:0}
+    to {width:100%}
 }
 
 // Media Queries
