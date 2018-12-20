@@ -499,6 +499,7 @@ table {
   color: lightblue;
   opacity: 0.7;
   line-height: 1.2em;
+  animation: 4s fadein;
 }
 #contact .contact-container a h3:hover {
   transform: scale(1.1);
@@ -523,6 +524,17 @@ table {
   }
   to {
     width: 100%;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @media screen and (max-width: 919px) {
