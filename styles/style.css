@@ -88,7 +88,7 @@ table {
   display: inline-block;
 }
 #about .about-wrapper .info h1 .letter:hover {
-  transform: scale(1.3) !important;
+  transform: scale(1.6) !important;
   color: white;
 }
 #about .about-wrapper .info h3 {
@@ -104,7 +104,7 @@ table {
   display: inline-block;
 }
 #about .about-wrapper .info h3 .letter:hover {
-  transform: scale(1.3) !important;
+  transform: scale(1.6) !important;
   color: white;
 }
 #about .about-wrapper .info .icons {
@@ -120,7 +120,7 @@ table {
 }
 #about .about-wrapper .info .icons a:hover {
   opacity: 1;
-  transform: scale(1.3);
+  transform: scale(1.6);
   color: white;
 }
 #about .about-wrapper .skills {
@@ -139,6 +139,13 @@ table {
   color: pink;
   opacity: 0.8;
   line-height: 1.2em;
+}
+#about .about-wrapper .skills ul li span {
+  display: inline-block;
+}
+#about .about-wrapper .skills ul li .letter:hover {
+  transform: scale(1.6) !important;
+  color: white;
 }
 
 @media screen and (max-width: 1199px) {
@@ -499,7 +506,6 @@ table {
   color: lightblue;
   opacity: 0.7;
   line-height: 1.2em;
-  animation: 4s fadein;
 }
 #contact .contact-container a h3:hover {
   transform: scale(1.1);
@@ -524,17 +530,6 @@ table {
   }
   to {
     width: 100%;
-  }
-}
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 @media screen and (max-width: 919px) {

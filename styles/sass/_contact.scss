@@ -22,7 +22,6 @@
                 color:lightblue;
                 opacity:.7;
                 line-height: 1.2em;
-                animation: 4s fadein;
                 &:hover {
                     transform:scale(1.1);
                     opacity:1;
@@ -49,11 +48,6 @@
     to {width:100%}
 }
 
-@keyframes fadein{
-    0% { opacity:0; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
 
 // Media Queries
 @media screen and (max-width:919px) {
